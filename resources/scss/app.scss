@@ -8,3 +8,19 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import "~bootstrap/scss/bootstrap";
+
+header{
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    height: calc(100vh - 160px);
+}
